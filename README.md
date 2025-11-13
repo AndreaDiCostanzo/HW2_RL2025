@@ -110,4 +110,4 @@ ros2 service call /world/default/set_pose ros_gz_interfaces/srv/SetEntityPose "{
   pose: { position: {x: 0.7, y: 0.2, z: 2.1}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0} }
 }"
 ````
-(Note to send a service call it is mandatory to run the ros2_kdl.launch.py, because the node defining the bridge is created inside it)
+(Note: to send a service call it is mandatory to run the ros2_kdl.launch.py, because the node defining the bridge is created inside it)
